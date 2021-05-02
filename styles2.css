@@ -19,25 +19,15 @@
   display: inline-block;
 }
 
-.main-nav li:hover{
-  color:rgba(20, 19, 19, 0.74);
-  border: 2px solid rgba(20, 19, 19, 0.74);
-}
-
 .main-nav a{
   font-size: 24px;
   padding: 10px;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-
-
 /*end of nav*/
 
-body {
-  font-family: 'Lato', sans-serif;
-  color: #000000;
-}
+/*form title*/
 
 header {
   position: relative;
@@ -111,6 +101,8 @@ textarea:hover {
   height: 100%;
   background-size: cover;
 }
+
+/*modal for contact page*/
 .modal{
   width: 70%;
   height: 80%;
@@ -124,5 +116,41 @@ textarea:hover {
   border-radius: 40px;
   text-align: center;
   z-index: 11;
+}
+
+/*modal for about page*/
+.modal-2{
+  width: 80%;
+  height: 80%;
+  line-height: 200px;
+  position: fixed;
+  top: 33%;
+  left: 22%;
+  margin-top: -100px;
+  margin-left: -150px;
+  background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 40px;
+  z-index: 11;
+}
+
+article{
+  color: white;
+  line-height: 2em;
+  padding-left: 20px;
+  padding-top: 30px;
+  
+}
+article h2{
+  font-size: 2.3em;
+  text-decoration: underline;
+}
+#me{
+  width: 350px;
+  height: auto;
+  float: right;
+  border-radius: 30px;
+  padding-right: 10px;
+  padding-top: 8px;
+  opacity: 0.9;
 }
 

@@ -1,10 +1,16 @@
+<?php
+
+
+
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles2.css">
-    <title>Anete Kraukle Photography</title>
+    <title>Anete K Photography</title>
 </head>
 
 <body class='first-page'>
@@ -14,7 +20,7 @@
           <li><a href="/main.html">HOME</a></li>
           <li><a href="/photography.html">PHOTOGRAPHY</a></li>
           <li><a href="/about.html">ABOUT ME</a></li>
-          <li><a href="/reservation.html">CONTACT</a></li>
+          <li><a href="/inquiry.php">CONTACT</a></li>
         </ul>
     </nav>
 
