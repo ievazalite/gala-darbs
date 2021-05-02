@@ -9,9 +9,10 @@
 /* nav for */
 .main-nav ul{
   display: flex;
-  flex-direction: row;
-  padding: 17px;
-  background-color: rgba(0, 0, 0, 0.507);
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: #00000079;
   line-height: 50px;
 }
 .main-nav ul li{
@@ -96,7 +97,7 @@ textarea:hover {
 
 .first-page
 {
-  background-image: url(img/bilde.jpg);
+  background: url(img/zals.jpg) no-repeat;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -112,7 +113,7 @@ textarea:hover {
   left: 28%;
   margin-top: -100px;
   margin-left: -150px;
-  background-color: rgba(0, 0, 0, 0.692);
+  background-color: rgba(0, 0, 0, 0.863);
   border-radius: 40px;
   text-align: center;
   z-index: 11;
@@ -128,7 +129,7 @@ textarea:hover {
   left: 22%;
   margin-top: -100px;
   margin-left: -150px;
-  background-color: rgba(0, 0, 0, 0.692);
+  background-color: rgba(0, 0, 0, 0.808);;
   border-radius: 40px;
   z-index: 11;
 }
@@ -145,12 +146,12 @@ article h2{
   text-decoration: underline;
 }
 #me{
-  width: 350px;
-  height: auto;
-  float: right;
+  width: auto;
+  height: 450px;
+  float: left;
+  padding-right: 15px;
+  margin-right: 10px;
   border-radius: 30px;
-  padding-right: 10px;
-  padding-top: 8px;
   opacity: 0.9;
 }
 
