@@ -1,0 +1,128 @@
+*{
+    font-family: 'Lato', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav for */
+.main-nav ul{
+  display: flex;
+  flex-direction: row;
+  padding: 17px;
+  background-color: rgba(0, 0, 0, 0.507);
+  line-height: 50px;
+}
+.main-nav ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.main-nav li:hover{
+  color:rgba(20, 19, 19, 0.74);
+  border: 2px solid rgba(20, 19, 19, 0.74);
+}
+
+.main-nav a{
+  font-size: 24px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+/*end of nav*/
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+}
+
+header {
+  position: relative;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+  color: white;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 5px auto;
+}
+
+#form::placeholder{
+    color: #ffffff;
+}
+input {
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  border: solid 2px #000000;
+  border-bottom: none;
+  transition: all 0.3s;
+}
+
+input:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  font-size: 0.875em;
+  border: solid 2px #000000;
+  transition: all 0.3s;
+}
+
+textarea:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+#submit {
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-size: 0.875em;
+  color: #ffffff;
+  outline:none;
+  cursor: pointer;
+  border: solid 2px #000000;
+  border-top: none;
+}
+
+.first-page
+{
+  background-image: url(img/bilde.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.modal{
+  width: 70%;
+  height: 80%;
+  line-height: 200px;
+  position: fixed;
+  top: 33%;
+  left: 28%;
+  margin-top: -100px;
+  margin-left: -150px;
+  background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 40px;
+  text-align: center;
+  z-index: 11;
+}
+
