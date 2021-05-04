@@ -28,7 +28,7 @@
 }
 /*end of nav*/
 
-/*form title*/
+/*form title*/ 
 
 header {
   position: relative;
@@ -135,13 +135,16 @@ textarea:hover {
 }
 
 article{
+  padding-left: 10px;
   color: white;
   line-height: 2em;
   padding-left: 20px;
   padding-top: 30px;
+  padding-right: 3px;
   
 }
 article h2{
+  padding-left: 10px;
   font-size: 2.3em;
   text-decoration: underline;
 }
@@ -149,9 +152,50 @@ article h2{
   width: auto;
   height: 450px;
   float: left;
-  padding-right: 15px;
+  position: relative;
+  padding-right: 10px;
+  padding-left: 8px;
+  bottom: 5px;
   margin-right: 10px;
-  border-radius: 30px;
+  border-radius: 20px;
   opacity: 0.9;
 }
+
+/*for main page titles*/
+.for-h{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 10%;
+}
+.main-h1{
+  font-family: 'Kanit', sans-serif;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 3px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.main-h3{
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  font-style:oblique;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.website-btn{
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+  padding: 20px 40px;
+  border: 1px solid white;
+}
+.website-btn:hover{
+  background: white;
+  color: black;
+}
+
 

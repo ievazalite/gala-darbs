@@ -1,3 +1,4 @@
+ 
 <?php
 
 include 'inquiry.php';
@@ -46,4 +47,4 @@ if(isset($_POST['submit'])){
     echo "Message sent successfully";
     }
 }
-?>
+?> 
