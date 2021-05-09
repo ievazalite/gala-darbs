@@ -1,0 +1,398 @@
+* {
+  font-family: "Lato", sans-serif;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*background for most pages*/
+.first-page {
+  background: url(img/zals.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+/* nav for */
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: #00000079;
+  line-height: 50px;
+}
+.main-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.main-nav a {
+  font-size: 24px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/*end of nav*/
+
+/*form title*/
+
+header {
+  position: relative;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+  color: white;
+}
+
+/*the form itself*/
+form {
+  position: relative;
+  width: 500px;
+  margin: 5px auto;
+
+  &::placeholder {
+    color: #ffffff;
+  }
+}
+
+input {
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  border: solid 2px #000000;
+  border-bottom: none;
+  transition: all 0.3s;
+}
+
+input:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  font-size: 0.875em;
+  border: solid 2px #000000;
+  transition: all 0.3s;
+}
+
+textarea:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+#submit {
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-size: 0.875em;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: solid 2px #000000;
+  border-top: none;
+}
+/*end of form*/
+
+/*modal for contact page*/
+.modal {
+  width: 800px;
+  height: 510px;
+  line-height: 200px;
+  position: relative;
+  top: 21%;
+  left: 32%;
+  margin-top: -100px;
+  margin-left: -150px;
+  background-color: rgba(0, 0, 0, 0.815);
+  border-radius: 40px;
+  text-align: center;
+  z-index: 11;
+}
+
+/*modal for about page*/
+.modal-2 {
+  width: 1000px;
+  height: 510px;
+  line-height: 100px;
+  position: relative;
+  top: 5%;
+  left: 14%;
+  //margin-top: -100px;
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 40px;
+  z-index: 11;
+}
+
+article {
+  padding-left: 10px;
+  color: white;
+  line-height: 30px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 3px;
+}
+h2 {
+  padding-left: 10px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+/*pic of the modal*/
+#me {
+  width: auto;
+  height: 450px;
+  float: left;
+  position: relative;
+  padding-right: 10px;
+  padding-left: 8px;
+  margin-right: 10px;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+/*titles for the actual main page*/
+.for-h {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 10%;
+  padding: 20px;
+}
+.main-h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 3px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.main-h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  font-style: oblique;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.website-btn {
+  font-family: "Kanit", sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+  padding: 20px 40px;
+  border: 2px solid white;
+}
+
+.website-btn:hover {
+  background: white;
+  color: black;
+}
+.main-h4 {
+  font-family: "Kanit", sans-serif;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  position: relative;
+  top: 60px;
+}
+
+/*main page icons*/
+.icons {
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fab {
+  display: inline-block;
+  margin: 3px;
+  text-align: center;
+  padding: 7px 7px;
+  background-color: rgba(255, 255, 255, 0.856);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  color: transparent;
+  font-size: 25px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+.fab:hover {
+  background-color: #ffffff;
+}
+.fa-instagram {
+  width: 26px;
+}
+
+/*main page screens*/
+@media only screen and (max-width: 850px) {
+  .main-h1 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .main-h1 {
+    font-size: 70px;
+  }
+  .main-h3 {
+    font-size: 25px;
+  }
+}
+
+/*about page screens */
+@media only screen and (max-width: 1130px) {
+  .modal-2 {
+    width: 90%;
+    height: 80%;
+    top: 7%;
+    left: 5%;
+  }
+  article {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  #me {
+    width: auto;
+    height: 400px;
+    position: relative;
+    padding-right: 10px;
+    top: 5px;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .modal-2 {
+    left: 5%;
+    width: 90%;
+  }
+  #me {
+    height: 360px;
+    padding-bottom: 1px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .modal-2 {
+    line-height: 140px;
+  }
+  article {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  #me {
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .modal-2 {
+    width: 100%;
+    left: 0;
+    border-radius: 1px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  article {
+    line-height: 28px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  article {
+    line-height: 26px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  article {
+    line-height: 24px;
+  }
+  .main-nav ul {
+    line-height: 30px;
+  }
+  .main-nav a {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+/*end of abt me screens*/
+
+/*screens for contact me page*/
+
+@media only screen and (max-width: 1125px) {
+  .modal {
+    left: 28%;
+  }
+}
+@media only screen and (max-width: 1085px) {
+  .modal {
+    width: 68%;
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width: 1047px) {
+  .modal {
+    left: 31%;
+  }
+}
+@media only screen and (max-width: 997px) {
+  .modal {
+    left: 32%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .modal {
+    width: 630px;
+    left: 31%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .modal {
+    left: 30%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .modal {
+    left: 29%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .modal {
+    width: 100%;
+    left: 148px;
+    border-radius: 1px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .main-nav ul {
+    line-height: 30px;
+  }
+  .main-nav a {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+/*end of screens for contact me*/

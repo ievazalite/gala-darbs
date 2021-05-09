@@ -1,13 +1,11 @@
 {
     "events": [
-        "event1.jpg",
-        "event2.jpg",
+        "pasakums1.jpg",
         "event3.jpg",
         "event4.jpg",
         "event5.jpg",
         "event6.jpg",
-        "event7.jpg",
-        "event8.jpg"
+        "event7.jpg"
     ],
     "family": [
         "family1.jpg",
@@ -15,10 +13,7 @@
         "family3.jpg",
         "family4.jpg",
         "family5.jpg",
-        "family6.jpg",
-        "family7.jpg",
-        "family8.jpg",
-        "family9.jpg"
+        "family6.jpg"
         
     ],
     "portraits": [
@@ -27,10 +22,6 @@
         "portrait3.jpg",
         "portrait4.jpg",
         "portrait5.jpg",
-        "portrait6.jpg",
-        "portrait7.jpg",
-        "portrait8.jpg",
-        "portrait9.jpg"
-
+        "portrait6.jpg"
     ]
 }

@@ -1,26 +1,29 @@
-//get data, parse json, do the promise
-fetch('images.json')
-    .then(function (response){
-        return response.json();
-    })
-    .then(function (data){
-        appendData(data);
-    })
+// where data will be inserted
+const eventContainer = document.getElementById("events");
+const portraitsContainer = document.getElementById("portraits");
+const familyContainer = document.getElementById("family");
 
-    //catching an error
-    .catch(function (err){
-        console.log(err);
-    }
-);
+//define function first (only then actions aka fetch), loop thru data, place it in html
+const appendData = (data) => {
+  let template1 = "";
+  let template2 = "";
+  let template3 = "";
+  for (let i = 0; i < data.events.length; i++) {
+    template1 += `<img src='./img/events/${data.events[i]}' />`;
+  }
+  for (let i = 0; i < data.portraits.length; i++) {
+    template2 += `<img src='./img/portraits/${data.portraits[i]}' />`;
+  }
+  for (let i = 0; i < data.family.length; i++) {
+    template3 += `<img src='./img/family/${data.family[i]}'  />`;
+  }
+  eventContainer.innerHTML = template1;
+  portraitsContainer.innerHTML = template2;
+  familyContainer.innerHTML = template3;
+};
 
-//this is where i'll put json data in
-let eventContainer = document.getElementById('events');
-
-//loop thru each picture, create an element where to put it
-function appendData(data){
-    for(let i = 0; i < data.length; i++){
-        let img = document.createElement('img');
-        img.innerHTML = `<img src='${data.events}'/>`;
-        eventContainer.appendChild(img);
-    }
-}
+//get data, json parse, promise, catch any errors
+fetch("./images.json")
+  .then((res) => res.json())
+  .then((data) => appendData(data))
+  .catch((err) => console.error(`JINKIES: ${err.message}`));
